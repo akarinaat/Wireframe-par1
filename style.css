@@ -53,7 +53,8 @@ body #three img{
   display: inline-block;
   overflow: scroll;
   margin-left: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  vertical-align: 1.8em;
 }
 
 #sectioned .text p:first-child{
@@ -67,17 +68,24 @@ margin-bottom: -10px;
 
 
 
-button {
+#share {
   margin-right: 50px;
-  margin-left: 40%;
+  margin-left: 20%;
   size: 3em;
+  color: white;
+  text-align: center;
+  transform: translate(0, -30px)
+
+}
+
+button {
   background-color: #444;
   color: white;
   padding: 7px 25px 7px 25px;
-  text-align: center;
-  vertical-align: 40px;
-
+   
 }
+
+
  
 
 footer nav{
